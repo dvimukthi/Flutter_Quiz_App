@@ -111,6 +111,16 @@ class _MyHomePageState extends State<MyHomePage> {
                       'Blaise Pascal'
                     ],
                   ),
+                  QuestionModel(
+                    'Who painted the Mona Lisa ?',
+                    'Leonardo da Vinci',
+                    [
+                      'Pablo Picasso',
+                      'Michel angelo',
+                      'Leonardo da Vinci',
+                      'Raphael'
+                    ],
+                  ),
                 ];
                 Get.back();
                 Get.to(() => const QuestionScreen());
