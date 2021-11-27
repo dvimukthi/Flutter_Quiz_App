@@ -101,6 +101,16 @@ class _MyHomePageState extends State<MyHomePage> {
                     'India',
                     ['China', 'USA', 'Pakistan', 'India'],
                   ),
+                  QuestionModel(
+                    'Who invented the lightbulb ?',
+                    'Thomas Edison',
+                    [
+                      'Albert Einstein',
+                      'Thomas Edison',
+                      'Galileo Galilei',
+                      'Blaise Pascal'
+                    ],
+                  ),
                 ];
                 Get.back();
                 Get.to(() => const QuestionScreen());
