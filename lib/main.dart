@@ -121,6 +121,11 @@ class _MyHomePageState extends State<MyHomePage> {
                       'Raphael'
                     ],
                   ),
+                  QuestionModel(
+                    'Where exactly is the Eiffel Tower located ?',
+                    'Paris',
+                    ['Rome', 'New York', 'London', 'Paris'],
+                  ),
                 ];
                 Get.back();
                 Get.to(() => const QuestionScreen());
