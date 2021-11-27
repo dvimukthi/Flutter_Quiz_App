@@ -96,6 +96,11 @@ class _MyHomePageState extends State<MyHomePage> {
                     'Canberra',
                     ['Canberra', 'Melbourne', 'Perth', 'Sydney'],
                   ),
+                  QuestionModel(
+                    'In which country would you find the Taj Mahal ?',
+                    'India',
+                    ['China', 'USA', 'Pakistan', 'India'],
+                  ),
                 ];
                 Get.back();
                 Get.to(() => const QuestionScreen());
