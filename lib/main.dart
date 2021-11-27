@@ -81,6 +81,11 @@ class _MyHomePageState extends State<MyHomePage> {
                     'Vollyball',
                     ['Vollyball', 'Cricket', 'Football', 'Rugby'],
                   ),
+                  QuestionModel(
+                    'What is the tallest waterfall in sri lanka ?',
+                    'Bambarakanda',
+                    ['Dunhinda', 'Ramboda', 'Diyaluma', 'Bambarakanda'],
+                  ),
                 ];
                 Get.back();
                 Get.to(() => const QuestionScreen());
