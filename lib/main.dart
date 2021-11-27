@@ -91,6 +91,11 @@ class _MyHomePageState extends State<MyHomePage> {
                     'Nile',
                     ['Amazon', 'Nile', 'Yangtze', 'Congo'],
                   ),
+                  QuestionModel(
+                    'What is the capital of Australia ?',
+                    'Canberra',
+                    ['Canberra', 'Melbourne', 'Perth', 'Sydney'],
+                  ),
                 ];
                 Get.back();
                 Get.to(() => const QuestionScreen());
