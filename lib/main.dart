@@ -86,6 +86,11 @@ class _MyHomePageState extends State<MyHomePage> {
                     'Bambarakanda',
                     ['Dunhinda', 'Ramboda', 'Diyaluma', 'Bambarakanda'],
                   ),
+                  QuestionModel(
+                    'What is the longest river in the world ?',
+                    'Nile',
+                    ['Amazon', 'Nile', 'Yangtze', 'Congo'],
+                  ),
                 ];
                 Get.back();
                 Get.to(() => const QuestionScreen());
