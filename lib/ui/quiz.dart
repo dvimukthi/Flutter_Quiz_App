@@ -37,7 +37,7 @@ class _QuestionScreenState extends State<QuestionScreen> {
                     lineHeight: 14.0,
                     percent: (currentQuestion + 1) / data.questionsList.length,
                     backgroundColor: Colors.yellow,
-                    progressColor: Colors.orange),
+                    progressColor: Colors.red),
               ],
             ),
             Padding(
