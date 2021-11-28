@@ -20,6 +20,7 @@ class Result extends StatelessWidget {
       child: Scaffold(
         appBar: AppBar(
           title: const Text('Results'),
+          centerTitle: true,
         ),
         body: Center(
           child: Column(

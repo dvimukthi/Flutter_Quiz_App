@@ -113,7 +113,7 @@ class _QuestionScreenState extends State<QuestionScreen> {
                         gravity: ToastGravity.BOTTOM,
                         timeInSecForIosWeb: 1,
                         backgroundColor: Colors.green,
-                        textColor: Colors.white,
+                        textColor: Colors.black,
                         fontSize: 16.0);
                   } else {
                     Fluttertoast.showToast(
