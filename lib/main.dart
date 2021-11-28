@@ -41,14 +41,14 @@ class _MyHomePageState extends State<MyHomePage> {
       context: context,
       builder: (BuildContext context) => AlertDialog(
         title: const Text(
-          'Before We Start',
+          'FLUTTER QUIZ',
           textAlign: TextAlign.center,
         ),
         content: SizedBox(
           height: MediaQuery.of(context).size.height * 0.1,
           child: Column(
             children: [
-              const Text('Please enter your name'),
+              const Text('Please Enter Your Name'),
               TextField(
                 controller: nameController,
               ),
