@@ -49,7 +49,7 @@ class _MyHomePageState extends State<MyHomePage> {
           height: MediaQuery.of(context).size.height * 0.1,
           child: Column(
             children: [
-              const Text('Please Enter Your Name'),
+              const Text('Enter Your Name'),
               TextField(
                 controller: nameController,
               ),
