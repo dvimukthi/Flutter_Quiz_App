@@ -45,7 +45,7 @@ class _QuestionScreenState extends State<QuestionScreen> {
               child: Text(
                 data.questionsList[currentQuestion].title,
                 style: const TextStyle(
-                  fontSize: 18.0,
+                  fontSize: 20.0,
                   fontWeight: FontWeight.bold,
                 ),
               ),
