@@ -41,7 +41,7 @@ class _MyHomePageState extends State<MyHomePage> {
       context: context,
       builder: (BuildContext context) => AlertDialog(
         title: const Text(
-          'FLUTTER QUIZ',
+          'QUIZ GAME',
           textAlign: TextAlign.center,
         ),
         content: SizedBox(
