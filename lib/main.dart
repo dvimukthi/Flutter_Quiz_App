@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       title: 'Flutter Quiz',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.red,
       ),
       home: const MyHomePage(),
       initialBinding: BindingsBuilder(() => {
@@ -141,6 +141,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Flutter Quiz'),
+        centerTitle: true,
       ),
       body: Center(
         child: ElevatedButton(
