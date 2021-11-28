@@ -26,9 +26,9 @@ class Result extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Text('Answered questions: ${data.questionsList.length}'),
+              Text('Answered Questions: ${data.questionsList.length}'),
               Text(
-                  'Correct answers: ${data.questionsList.where((element) => element.isAnswerCorrect).length}')
+                  'Correct Answers: ${data.questionsList.where((element) => element.isAnswerCorrect).length}')
             ],
           ),
         ),
