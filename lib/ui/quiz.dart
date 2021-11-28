@@ -31,14 +31,13 @@ class _QuestionScreenState extends State<QuestionScreen> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 LinearPercentIndicator(
-                  trailing: Text(
-                      '${currentQuestion + 1} / ${data.questionsList.length}'),
-                  width: 140.0,
-                  lineHeight: 14.0,
-                  percent: (currentQuestion + 1) / data.questionsList.length,
-                  backgroundColor: Colors.grey,
-                  progressColor: Colors.blue,
-                ),
+                    trailing: Text(
+                        '${currentQuestion + 1} / ${data.questionsList.length}'),
+                    width: 140.0,
+                    lineHeight: 14.0,
+                    percent: (currentQuestion + 1) / data.questionsList.length,
+                    backgroundColor: Colors.yellow,
+                    progressColor: Colors.orange),
               ],
             ),
             Padding(
