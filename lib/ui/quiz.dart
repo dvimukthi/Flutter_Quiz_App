@@ -132,7 +132,12 @@ class _QuestionScreenState extends State<QuestionScreen> {
                     });
                   }
                 },
-                child: const Text('Next')),
+                child: const Text('Next'),
+                style: ButtonStyle(
+                    shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+                        RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(18.0),
+                            side: const BorderSide(color: Colors.red))))),
           ],
         ),
       ),
