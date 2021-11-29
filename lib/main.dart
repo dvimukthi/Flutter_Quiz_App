@@ -131,7 +131,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 Get.back();
                 Get.to(() => const QuestionScreen());
               },
-              child: const Text('OK')),
+              child: const Text('Ok')),
         ],
       ),
     );
