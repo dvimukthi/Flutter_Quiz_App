@@ -3,7 +3,9 @@ import 'package:fluttertoast/fluttertoast.dart';
 import 'package:get/get.dart';
 import 'package:flutter_quiz/controller/data_handler.dart';
 import 'package:flutter_quiz/ui/result.dart';
-import 'package:percent_indicator/linear_percent_indicator.dart';
+//import 'package:percent_indicator/linear_percent_indicator.dart';
+//import 'package:percent_indicator/Circular_percent_ndicator.dart';
+import 'package:percent_indicator/circular_percent_indicator.dart';
 
 class QuestionScreen extends StatefulWidget {
   const QuestionScreen({Key? key}) : super(key: key);
@@ -30,11 +32,11 @@ class _QuestionScreenState extends State<QuestionScreen> {
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                LinearPercentIndicator(
-                    trailing: Text(
+                CircularPercentIndicator(
+                    center: Text(
                         '${currentQuestion + 1} / ${data.questionsList.length}'),
-                    width: 140.0,
-                    lineHeight: 14.0,
+                    radius: 100.0,
+                    lineWidth: 5.0,
                     percent: (currentQuestion + 1) / data.questionsList.length,
                     backgroundColor: Colors.yellow,
                     progressColor: Colors.red),
