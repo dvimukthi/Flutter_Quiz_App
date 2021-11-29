@@ -3,8 +3,6 @@ import 'package:fluttertoast/fluttertoast.dart';
 import 'package:get/get.dart';
 import 'package:flutter_quiz/controller/data_handler.dart';
 import 'package:flutter_quiz/ui/result.dart';
-//import 'package:percent_indicator/linear_percent_indicator.dart';
-//import 'package:percent_indicator/Circular_percent_ndicator.dart';
 import 'package:percent_indicator/circular_percent_indicator.dart';
 
 class QuestionScreen extends StatefulWidget {

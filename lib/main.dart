@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       title: 'Flutter Quiz',
       theme: ThemeData(
-        scaffoldBackgroundColor: Colors.orange[200],
+        scaffoldBackgroundColor: Colors.red[100],
         primarySwatch: Colors.red,
       ),
       home: const MyHomePage(),
