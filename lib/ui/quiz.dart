@@ -107,7 +107,7 @@ class _QuestionScreenState extends State<QuestionScreen> {
                   if (answer == data.questionsList[currentQuestion].answer) {
                     data.questionsList[currentQuestion].isAnswerCorrect = true;
                     Fluttertoast.showToast(
-                        msg: "Answer is correct",
+                        msg: "Answer Is Correct",
                         toastLength: Toast.LENGTH_SHORT,
                         gravity: ToastGravity.BOTTOM,
                         timeInSecForIosWeb: 1,
@@ -116,7 +116,7 @@ class _QuestionScreenState extends State<QuestionScreen> {
                         fontSize: 16.0);
                   } else {
                     Fluttertoast.showToast(
-                        msg: "Wrong answer",
+                        msg: "Wrong Answer",
                         toastLength: Toast.LENGTH_SHORT,
                         gravity: ToastGravity.BOTTOM,
                         timeInSecForIosWeb: 1,
