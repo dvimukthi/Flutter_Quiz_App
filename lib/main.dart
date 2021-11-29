@@ -151,7 +151,7 @@ class _MyHomePageState extends State<MyHomePage> {
             style: ButtonStyle(
                 shape: MaterialStateProperty.all<RoundedRectangleBorder>(
                     RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(18.0),
+                        borderRadius: BorderRadius.circular(20.0),
                         side: const BorderSide(color: Colors.red))))),
       ),
     );
