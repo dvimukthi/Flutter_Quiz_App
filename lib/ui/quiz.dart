@@ -136,7 +136,7 @@ class _QuestionScreenState extends State<QuestionScreen> {
                 style: ButtonStyle(
                     shape: MaterialStateProperty.all<RoundedRectangleBorder>(
                         RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(18.0),
+                            borderRadius: BorderRadius.circular(20.0),
                             side: const BorderSide(color: Colors.red))))),
           ],
         ),
