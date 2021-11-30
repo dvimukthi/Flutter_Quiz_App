@@ -24,7 +24,7 @@ class _QuestionScreenState extends State<QuestionScreen> {
         title: Text('Quiz For ${data.userName}'),
       ),
       body: Padding(
-        padding: const EdgeInsets.only(top: 16.0, bottom: 16.0),
+        padding: const EdgeInsets.only(top: 20.0, bottom: 20.0),
         child: Column(
           children: [
             Row(
@@ -107,7 +107,7 @@ class _QuestionScreenState extends State<QuestionScreen> {
                   if (answer == data.questionsList[currentQuestion].answer) {
                     data.questionsList[currentQuestion].isAnswerCorrect = true;
                     Fluttertoast.showToast(
-                        msg: "Answer Is Correct",
+                        msg: "Correct Answer",
                         toastLength: Toast.LENGTH_SHORT,
                         gravity: ToastGravity.BOTTOM,
                         timeInSecForIosWeb: 1,
