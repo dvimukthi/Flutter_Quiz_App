@@ -42,7 +42,7 @@ class _MyHomePageState extends State<MyHomePage> {
       context: context,
       barrierColor: Colors.red[300],
       builder: (BuildContext context) => AlertDialog(
-        backgroundColor: Colors.green,
+        backgroundColor: Colors.red[100],
         title: const Text(
           'QUIZ GAME',
           textAlign: TextAlign.center,
