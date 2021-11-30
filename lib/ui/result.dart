@@ -29,15 +29,15 @@ class Result extends StatelessWidget {
               Text(
                 'Answered Questions: ${data.questionsList.length}',
                 style: const TextStyle(
-                  fontSize: 20.0,
-                  fontWeight: FontWeight.bold,
+                  fontSize: 22.0,
+                  fontWeight: FontWeight.w900,
                 ),
               ),
               Text(
                 'Correct Answers: ${data.questionsList.where((element) => element.isAnswerCorrect).length}',
                 style: const TextStyle(
-                  fontSize: 20.0,
-                  fontWeight: FontWeight.bold,
+                  fontSize: 22.0,
+                  fontWeight: FontWeight.w900,
                 ),
               )
             ],
