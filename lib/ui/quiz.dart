@@ -21,7 +21,7 @@ class _QuestionScreenState extends State<QuestionScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Questions For ${data.userName}'),
+        title: Text('Quiz For ${data.userName}'),
       ),
       body: Padding(
         padding: const EdgeInsets.only(top: 16.0, bottom: 16.0),
