@@ -151,10 +151,10 @@ class _MyHomePageState extends State<MyHomePage> {
             onPressed: _showDialog,
             child: const Text('Start Game'),
             style: ButtonStyle(
-                shape: MaterialStateProperty.all<RoundedRectangleBorder>(
-                    RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(20.0),
-                        side: const BorderSide(color: Colors.black))))),
+              shape: MaterialStateProperty.all(const CircleBorder()),
+              padding: MaterialStateProperty.all(const EdgeInsets.all(50)),
+              backgroundColor: MaterialStateProperty.all(Colors.red),
+            )),
       ),
     );
   }
