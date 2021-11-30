@@ -98,7 +98,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     ['Canberra', 'Melbourne', 'Perth', 'Sydney'],
                   ),
                   QuestionModel(
-                    'In which country would you find the Taj Mahal ?',
+                    'In which country is the Taj Mahal located ?',
                     'India',
                     ['China', 'USA', 'Pakistan', 'India'],
                   ),
