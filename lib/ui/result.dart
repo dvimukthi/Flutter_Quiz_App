@@ -19,7 +19,7 @@ class Result extends StatelessWidget {
       onWillPop: _onWillPop,
       child: Scaffold(
         appBar: AppBar(
-          title: const Text('Results'),
+          title: const Text('Quiz Results'),
           centerTitle: true,
         ),
         body: Center(
