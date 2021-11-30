@@ -34,7 +34,7 @@ class _QuestionScreenState extends State<QuestionScreen> {
                     center: Text(
                         '${currentQuestion + 1} / ${data.questionsList.length}'),
                     radius: 100.0,
-                    lineWidth: 5.0,
+                    lineWidth: 8.0,
                     percent: (currentQuestion + 1) / data.questionsList.length,
                     backgroundColor: Colors.yellow,
                     progressColor: Colors.red),
