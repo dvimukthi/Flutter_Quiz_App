@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      title: 'Flutter Quiz',
+      title: 'Quiz Game',
       theme: ThemeData(
         scaffoldBackgroundColor: Colors.red[100],
         primarySwatch: Colors.red,
@@ -143,7 +143,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Flutter Quiz'),
+        title: const Text('Quiz Game'),
         centerTitle: true,
       ),
       body: Center(
